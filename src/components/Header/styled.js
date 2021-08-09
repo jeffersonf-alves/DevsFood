@@ -28,4 +28,11 @@ export const SearchInput = styled.input`
     background-position: 10px center;
     outline:none;
     padding-left:50px;
+    transition: all ease .2s;
+    cursor:pointer;
+    font-size:15px;
+
+    &:focus {
+        cursor:text;
+    }
 `;
